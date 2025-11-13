@@ -1,5 +1,32 @@
 {
+  "name": "openbakalari",
+  "version": "1.0.0",
+  "description": "Open Bakaláři Server (API) for the Bakaláři phone app.",
+  "keywords": [
+    "server",
+    "bakalari",
+    "api",
+    "reverseengineering"
+  ],
+  "homepage": "https://github.com/mrtomicz/openbakalari#readme",
+  "bugs": {
+    "url": "https://github.com/mrtomicz/openbakalari/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrtomicz/openbakalari.git"
+  },
+  "license": "ISC",
+  "author": "mrtomicz",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js",
+    "prod": "node app.js"
+  },
   "dependencies": {
     "express": "^5.1.0"
-  }
+  },
+  "devDependencies": {}
 }
