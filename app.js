@@ -1,6 +1,6 @@
 const express = require("express");
 const xprs = express();
-const PORT = 80;
+const PORT = 8616;
 
 xprs.listen(PORT, function (err) {
     if (err) console.error("❌ Express tě nechce odposlouchávat:",err);
@@ -30,4 +30,4 @@ xprs.use("/api", (req, res) => {
         res.status(405).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     };
     res.header("Content-Type", "application/json").send('[{"ApiVersion":"3.12.0","ApplicationVersion":"1.32.625.2","BaseUrl":"api/3"}]');
-})
+});
