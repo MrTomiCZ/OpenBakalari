@@ -1,6 +1,7 @@
+require('dotenv').config();
 const express = require("express");
 const xprs = express();
-const PORT = 8616;
+const PORT = process.env.PORT || 8616;
 
 xprs.listen(PORT, function (err) {
     if (err) console.error("❌ Express tě nechce odposlouchávat:",err);
@@ -22,12 +23,12 @@ xprs.use("/api/3", (req, res) => {
     if (req.method !== "GET") {
         res.status(405).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     };
-    res.header("Content-Type", "application/json").send('{"ApiVersion":"3.12.0","ApplicationVersion":"1.32.625.2","BaseUrl":"api/3"}');
+    res.header("Content-Type", "application/json").send(`{"ApiVersion":"${process.env.APIVER}","ApplicationVersion":"${process.env.APPVER}","BaseUrl":"api/3"}`);
 });
 
 xprs.use("/api", (req, res) => {
     if (req.method !== "GET") {
         res.status(405).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     };
-    res.header("Content-Type", "application/json").send('[{"ApiVersion":"3.12.0","ApplicationVersion":"1.32.625.2","BaseUrl":"api/3"}]');
+    res.header("Content-Type", "application/json").send(`[{"ApiVersion":"${process.env.APIVER}","ApplicationVersion":"${process.env.APPVER}","BaseUrl":"api/3"}]`);
 });

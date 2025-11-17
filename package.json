@@ -26,6 +26,7 @@
     "prod": "node app.js"
   },
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "nodemon": "^3.1.11"
   }
