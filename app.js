@@ -1,7 +1,9 @@
 require('dotenv').config();
 const express = require("express");
 const xprs = express();
-const PORT = process.env.PORT || 8616;
+const PORT = process.env.PORT || 8616
+const ver = process.env.APIVER;
+const appver = process.env.APPVER;
 
 xprs.listen(PORT, function (err) {
     if (err) console.error("❌ Express tě nechce odposlouchávat:",err);
@@ -31,4 +33,22 @@ xprs.use("/api", (req, res) => {
         res.status(405).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     };
     res.header("Content-Type", "application/json").send(`[{"ApiVersion":"${process.env.APIVER}","ApplicationVersion":"${process.env.APPVER}","BaseUrl":"api/3"}]`);
+});
+
+xprs.use("/api/login", (req, res) => {
+    if (req.method !== "POST") {
+        res.status(400).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
+    }
+    res.header("Content-Type", "application/json").send(`
+        {
+           "bak:ApiVersion":"${ver}",
+           "bak:AppVersion":"${appver}",
+           "bak:UserId":"XXXXX",
+           "access_token":"ACCESSTOKEN - 2556 znaků",
+           "refresh_token":"REFRESHTOKEN - 3459 znaků",
+           "id_token":"id_token - 872 znaků",  //není vždy dostupné
+           "token_type":"Bearer",
+           "expires_in":3599,
+           "scope":"openid profile offline_access bakalari_api"
+        }`);
 });
