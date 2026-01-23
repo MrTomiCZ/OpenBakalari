@@ -4,6 +4,8 @@ const xprs = express();
 const PORT = process.env.PORT || 8616
 const ver = process.env.APIVER;
 const appver = process.env.APPVER;
+const path = require("path");
+const fs = require("fs");
 
 xprs.listen(PORT, function (err) {
     if (err) console.error("❌ Express tě nechce odposlouchávat:",err);
@@ -38,6 +40,19 @@ xprs.use("/api", (req, res) => {
 xprs.use("/api/login", (req, res) => {
     if (req.method !== "POST") {
         res.status(400).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
+    }
+    // Načtení dat z databáze
+    const dataPath = path.join(__dirname, '..', 'database', 'data.json');
+    let data = {};
+
+    try {
+        if (fs.existsSync(dataPath)) {
+            const fileData = fs.readFileSync(dataPath, 'utf8');
+            data = JSON.parse(fileData);
+        }
+    } catch (error) {
+        console.error('Chyba při čtení databáze:', error);
+        return;
     }
     res.header("Content-Type", "application/json").send(`
         {
