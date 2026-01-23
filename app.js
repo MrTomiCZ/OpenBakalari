@@ -25,21 +25,21 @@ xprs.use((req, res, next) => {
 
 xprs.use("/api/3", (req, res) => {
     if (req.method !== "GET") {
-        res.status(405).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
+        res.status(405).header("Content-Type", "application/json").send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     };
     res.header("Content-Type", "application/json").send(`{"ApiVersion":"${process.env.APIVER}","ApplicationVersion":"${process.env.APPVER}","BaseUrl":"api/3"}`);
 });
 
 xprs.use("/api", (req, res) => {
     if (req.method !== "GET") {
-        res.status(405).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
+        res.status(405).header("Content-Type", "application/json").send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     };
     res.header("Content-Type", "application/json").send(`[{"ApiVersion":"${process.env.APIVER}","ApplicationVersion":"${process.env.APPVER}","BaseUrl":"api/3"}]`);
 });
 
 xprs.use("/api/login", (req, res) => {
     if (req.method !== "POST") {
-        res.status(400).send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
+        res.status(400).header("Content-Type", "application/json").send(`{"Message":"The requested resource does not support http method '${req.method}'."}`);
     }
     // Načtení dat z databáze
     const dataPath = path.join(__dirname, '..', 'database', 'data.json');
@@ -54,11 +54,16 @@ xprs.use("/api/login", (req, res) => {
         console.error('Chyba při čtení databáze:', error);
         return;
     }
+    const params = new URLSearchParams(req.body);
+    const sur = params.get("username");
+    const pasword = params.get("password");
+    if (params.get("grant_type") !== "password" || params.get("client_id") !== "ANDR")
+        res.status(400).header("Content-Type", "application/json").send('{"Message":"Request is malformed.","OPENBK_REASON":"grant_type is not password or client_id ANDR."}');
     res.header("Content-Type", "application/json").send(`
         {
            "bak:ApiVersion":"${ver}",
            "bak:AppVersion":"${appver}",
-           "bak:UserId":"XXXXX",
+           "bak:UserId":"${data[sur].id}",
            "access_token":"ACCESSTOKEN - 2556 znaků",
            "refresh_token":"REFRESHTOKEN - 3459 znaků",
            "id_token":"id_token - 872 znaků",  //není vždy dostupné
