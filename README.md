@@ -1,4 +1,7 @@
 # OpenBakaláři
+> [!IMPORTANT]
+> Program/Aplikace/Skript je ještě ve vývoji.
+
 Open Source Bakaláři server řešení. Funguje s mobilní aplikací.
 Pro použití na PC můžete použít [BakalariCLI](https://github.com/schizza/async-bakalari-api3)
 
