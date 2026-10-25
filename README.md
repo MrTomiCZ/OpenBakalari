@@ -17,7 +17,7 @@ npm i
 ```
 Poté spuštění:
 ```bash
-npm start
+npm run prod
 ```
 
 
