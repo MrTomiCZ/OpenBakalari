@@ -1,0 +1,518 @@
+
+{
+    "method": "GET",
+    "url": "/api/3/timetable/actual/?dateFrom=2026-10-25&dateTo=2026-10-30",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "content-length": "0",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiIyNzJmMzFhMTYyNWQxNTgxYjlkYmRjOGVlN2Y0ZmVhOCIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NDYxNjI5MzM1MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoiT1BFTkJLVEVTVElORyIsInN1YiI6IlVISURLNCIsIm5hbWUiOiJQZXRyIE5vdsOhayIsIm9pX3Byc3QiOiJBTkRSIiwib2lfYXVfaWQiOiI0ZTExMThjNjAzYTVhZDMyMDE1ZTZiZjAwOGYyNWNiZiIsImNsaWVudF9pZCI6IkFORFIiLCJvaV90a25faWQiOiIzM2MwNTYzZjY3YjU0MjlkOWE2YmFlZjMxMzg1MTU5OCIsImF1ZCI6ImJha2FsYXJpX2FwaSIsInNjb3BlIjoib2ZmbGluZV9hY2Nlc3MgYmFrYWxhcmlfYXBpIHRpbWV0YWJsZV93aWRnZXQiLCJqdGkiOiI2M2VjMmIyZS0wOTJkLTRhNzEtYWQ4ZS0xYTliOWYzZDVmZDYiLCJleHAiOjE3OTI4NjgzMjgsImlzcyI6Imh0dHBzOi8vYXBhY2hlLm1ydG9taWN6LmV1LyIsImlhdCI6MTc5Mjg2NDgyOX0.XOUFEGz8M7KyB_SaMttLzm5aVPmAHL7QV_wJysqpexx33SY6g9LRrQtgY-m4flnS60an50Od5z7exEzuAt3H7K1j3c2-b4WYsb_PcZWwT7G_R8xvKP-e4wrJ6EMwkFCaDaAsd7FM_Wlp09KdwfqxOrN5gF7obYLVkMV5Z7MVy99NSigeoLENpjBWsdJlK0yqUN6NBepVxcSCfJLsDjmogkOaD4iqmEVQ3gVkoOsC-9VZtgesTYZsp-Accv0BI9yx3fYUUR9C4UhJD0gqfaYRjt5CcH_3ZtlH48CymYxyCfPRRi1iO-A_5lJsrkHPq7LQQc3nXukj2Ya-U8ym7IWn8g",
+        "accept": "application/json",
+        "accept-charset": "UTF-8",
+        "user-agent": "ktor-client",
+        "accept-encoding": "gzip"
+    },
+    "query": {
+        "dateFrom": "2026-10-25",
+        "dateTo": "2026-10-30"
+    },
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/timetable/actual/?dateFrom=2026-10-25&dateTo=2026-10-30",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "content-length": "0",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiIyNzJmMzFhMTYyNWQxNTgxYjlkYmRjOGVlN2Y0ZmVhOCIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NDYxNjI5MzM1MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoiT1BFTkJLVEVTVElORyIsInN1YiI6IlVISURLNCIsIm5hbWUiOiJQZXRyIE5vdsOhayIsIm9pX3Byc3QiOiJBTkRSIiwib2lfYXVfaWQiOiI0ZTExMThjNjAzYTVhZDMyMDE1ZTZiZjAwOGYyNWNiZiIsImNsaWVudF9pZCI6IkFORFIiLCJvaV90a25faWQiOiIzM2MwNTYzZjY3YjU0MjlkOWE2YmFlZjMxMzg1MTU5OCIsImF1ZCI6ImJha2FsYXJpX2FwaSIsInNjb3BlIjoib2ZmbGluZV9hY2Nlc3MgYmFrYWxhcmlfYXBpIHRpbWV0YWJsZV93aWRnZXQiLCJqdGkiOiI2M2VjMmIyZS0wOTJkLTRhNzEtYWQ4ZS0xYTliOWYzZDVmZDYiLCJleHAiOjE3OTI4NjgzMjgsImlzcyI6Imh0dHBzOi8vYXBhY2hlLm1ydG9taWN6LmV1LyIsImlhdCI6MTc5Mjg2NDgyOX0.XOUFEGz8M7KyB_SaMttLzm5aVPmAHL7QV_wJysqpexx33SY6g9LRrQtgY-m4flnS60an50Od5z7exEzuAt3H7K1j3c2-b4WYsb_PcZWwT7G_R8xvKP-e4wrJ6EMwkFCaDaAsd7FM_Wlp09KdwfqxOrN5gF7obYLVkMV5Z7MVy99NSigeoLENpjBWsdJlK0yqUN6NBepVxcSCfJLsDjmogkOaD4iqmEVQ3gVkoOsC-9VZtgesTYZsp-Accv0BI9yx3fYUUR9C4UhJD0gqfaYRjt5CcH_3ZtlH48CymYxyCfPRRi1iO-A_5lJsrkHPq7LQQc3nXukj2Ya-U8ym7IWn8g",
+        "accept": "application/json",
+        "accept-charset": "UTF-8",
+        "user-agent": "ktor-client",
+        "accept-encoding": "gzip"
+    },
+    "query": {
+        "dateFrom": "2026-10-25",
+        "dateTo": "2026-10-30"
+    },
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/timetable/actual/?dateFrom=2026-10-25&dateTo=2026-10-30",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "content-length": "0",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiIyNzJmMzFhMTYyNWQxNTgxYjlkYmRjOGVlN2Y0ZmVhOCIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NDYxNjI5MzM1MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoiT1BFTkJLVEVTVElORyIsInN1YiI6IlVISURLNCIsIm5hbWUiOiJQZXRyIE5vdsOhayIsIm9pX3Byc3QiOiJBTkRSIiwib2lfYXVfaWQiOiI0ZTExMThjNjAzYTVhZDMyMDE1ZTZiZjAwOGYyNWNiZiIsImNsaWVudF9pZCI6IkFORFIiLCJvaV90a25faWQiOiIzM2MwNTYzZjY3YjU0MjlkOWE2YmFlZjMxMzg1MTU5OCIsImF1ZCI6ImJha2FsYXJpX2FwaSIsInNjb3BlIjoib2ZmbGluZV9hY2Nlc3MgYmFrYWxhcmlfYXBpIHRpbWV0YWJsZV93aWRnZXQiLCJqdGkiOiI2M2VjMmIyZS0wOTJkLTRhNzEtYWQ4ZS0xYTliOWYzZDVmZDYiLCJleHAiOjE3OTI4NjgzMjgsImlzcyI6Imh0dHBzOi8vYXBhY2hlLm1ydG9taWN6LmV1LyIsImlhdCI6MTc5Mjg2NDgyOX0.XOUFEGz8M7KyB_SaMttLzm5aVPmAHL7QV_wJysqpexx33SY6g9LRrQtgY-m4flnS60an50Od5z7exEzuAt3H7K1j3c2-b4WYsb_PcZWwT7G_R8xvKP-e4wrJ6EMwkFCaDaAsd7FM_Wlp09KdwfqxOrN5gF7obYLVkMV5Z7MVy99NSigeoLENpjBWsdJlK0yqUN6NBepVxcSCfJLsDjmogkOaD4iqmEVQ3gVkoOsC-9VZtgesTYZsp-Accv0BI9yx3fYUUR9C4UhJD0gqfaYRjt5CcH_3ZtlH48CymYxyCfPRRi1iO-A_5lJsrkHPq7LQQc3nXukj2Ya-U8ym7IWn8g",
+        "accept": "application/json",
+        "accept-charset": "UTF-8",
+        "user-agent": "ktor-client",
+        "accept-encoding": "gzip"
+    },
+    "query": {
+        "dateFrom": "2026-10-25",
+        "dateTo": "2026-10-30"
+    },
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "067ae08eed7f41f598c39515b3b51762",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/.well-known/openid-configuration",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "067ae08eed7f41f598c39515b3b51762",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "2c91358a81814736aaf60ead0db2aa01",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "if-none-match": "W/\"4b-CHE6BoCafxlRDwmw1iC46pLsjgs\"",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/.well-known/openid-configuration",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "2c91358a81814736aaf60ead0db2aa01",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "4f0bb2f1917c41098ada1e49d5c27d7f",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "if-none-match": "W/\"4b-CHE6BoCafxlRDwmw1iC46pLsjgs\"",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/.well-known/openid-configuration",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "4f0bb2f1917c41098ada1e49d5c27d7f",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "0eeb3df84a0140cbaf555e0273409a52",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "if-none-match": "W/\"4b-CHE6BoCafxlRDwmw1iC46pLsjgs\"",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/.well-known/openid-configuration",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "0eeb3df84a0140cbaf555e0273409a52",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "246370695ae546b3870519f6027e6c88",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "if-none-match": "W/\"4b-CHE6BoCafxlRDwmw1iC46pLsjgs\"",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/.well-known/openid-configuration",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "246370695ae546b3870519f6027e6c88",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "0e4a7f998e5e4661814b17823d3aed4e",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "if-none-match": "W/\"4b-CHE6BoCafxlRDwmw1iC46pLsjgs\"",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/.well-known/openid-configuration",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "0e4a7f998e5e4661814b17823d3aed4e",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/user",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "0e4a7f998e5e4661814b17823d3aed4e",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/webmodule",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "04ebe5c049644fed90129250aaa8d650",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/komens/message-types?asDirector=false",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "da0d507e1f6144669ebb9fe74435ba0f",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {
+        "asDirector": "false"
+    },
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/gdpr/consents/person/new",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "20af5518275b48c286a3aecc9850875e",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/marks/count-new",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "20af5518275b48c286a3aecc9850875e",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/komens/messages/received/unread",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "20af5518275b48c286a3aecc9850875e",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "GET",
+    "url": "/api/3/komens/messages/noticeboard/unread",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "20af5518275b48c286a3aecc9850875e",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "query": {},
+    "params": {}
+}
+{
+    "method": "POST",
+    "url": "/api/3/register-notification?profil=Petr+Nov%C3%A1k&token=eGhHa1-6SA2p3Ftr75C20T%3AAPA91bFVe5k7emtfTN4meG40QUx6FB5CLKk4peCrhKvAd2Ab0PuOFz0IINvsBBc9MgHtXyNVvdhJSLqdrK3-U2iFaH0dfTrDZjeS81_HQzhPPa20O2UMzI0",
+    "headers": {
+        "connection": "upgrade",
+        "host": "apache.mrtomicz.eu",
+        "x-real-ip": "109.81.167.181",
+        "x-forwarded-for": "109.81.167.181",
+        "x-forwarded-proto": "https",
+        "content-length": "182",
+        "content-type": "application/json",
+        "accept": "application/json; charset=utf-8",
+        "x-trackingid": "0e4a7f998e5e4661814b17823d3aed4e",
+        "x-globaluserid": "5145/ZGWYL6",
+        "x-applicationversion": "Bakalari/4.3.0",
+        "x-clientos": "{\"Device\":\"waydroid%20waydroid_x86_64%2C%20model%3A%20WayDroid%20x86_64%20Device\",\"Hardware\":\"unknown\",\"OS Version\":\"13\",\"Product\":\"lineage_waydroid_x86_64\"}",
+        "accept-language": "en",
+        "authorization": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6ImF0K2p3dCIsImtpZCI6IlRCazZKTmEwb2JGb3NNbWZpaFFSSFEifQ.eyJCYWthbGFyaS5BY2NvdW50VHlwZSI6IlVzZXIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IlVISURLNCIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJQZXRyIE5vdsOhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3VwbiI6InBldHJub3ZhayIsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL2dlbmRlciI6Ik1hbGUiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9kYXRlb2ZiaXJ0aCI6IjIwMDUtMDItMzRUMDA6MDA6MDAiLCJCYWthbGFyaS5Vc2VyVHlwZSI6IlIiLCJCYWthbGFyaS5TZXNzaW9uSWQiOiI3NTA5NTczNmVhNThlYTZmOTg1YTczZDkyYzcwM2Y4NyIsIkJha2FsYXJpLlRpbWVTdGFtcCI6IjYzOTI4NTQxODExMzc5MDAwMCIsIkJha2FsYXJpLlBlcnNvbklkV2l0aFR5cGUiOiJVSElESzQiLCJCYWthbGFyaS5FdmlkTnVtYmVyIjoiMzQxMiIsIkJha2FsYXJpLk1hY2hpbmVOYW1lIjoianBtYW4iLCJzdWIiOiJVSElESzQiLCJuYW1lIjoiUGV0ciBOb3bDoWsiLCJvaV9wcnN0IjoiQU5EUiIsIm9pX2F1X2lkIjoiZmQ3MWQ3MWZlNDgxOGQ0N2RkMzUyYjkwYWZjZWJmMmUiLCJjbGllbnRfaWQiOiJBTkRSIiwib2lfdGtuX2lkIjoiMDg3ZWFiMTY5MjNlYWM3MjRhMzQyNWU2NWU5ZjQwMDAiLCJhdWQiOiJiYWthbGFyaV9hcGkiLCJzY29wZSI6Im9mZmxpbmVfYWNjZXNzIGJha2FsYXJpX2FwaSB0aW1ldGFibGVfd2lkZ2V0IiwianRpIjoiNzA3YzcyZDItOGQ2Zi00YTJhLTk3MzItNTVjOTdiMjdmZDVlIiwiZXhwIjoxNzkyOTQ4NTEwLCJpc3MiOiJqcG1hbiIsImlhdCI6MTc5Mjk0NTAxMX0.Zlms6SGclt3gpQmy1TxPW1FdxHrKs_-FNIrUF0e7bbFG9H2MAB3zp3amTYWalpTtfKpMNlvGXxQDoliYxD2s1i_JSViyIot6MR52PB8DL1Q1dh3s_cwNNT3E9D1GdIWbKotNaB1TQGY4d8K-xOD5BxQhWl0YLwtI22xHfEmmgZFEbbD-GECZq6zHQZmtqZmLzH8UrWhJXl-_rE4kcqrHSTH9ixl-l1c-vR3NkcQQhb5F19DRyUgwvhAEMI0XHVIXeIG7XfotPuiCK8y-9ab8hXsZ3wJ0aiMFJH5joUVfQ-9EKD24sg59fr4hoqV8A9OE_0Y-XCilpREZ5IjjAZG_6Q",
+        "user-agent": "cz.bakalari.mobile/5205 (Linux; U; Android 13; en_US; WayDroid x86_64 Device; Build/TQ3A.230901.001; Cronet/153.0.8010.18)",
+        "accept-encoding": "gzip, deflate",
+        "priority": "u=1, i"
+    },
+    "body": {
+        "profileName": "Petr Novák",
+        "token": "eGhHa1-6SA2p3Ftr75C20T:APA91bFVe5k7emtfTN4meG40QUx6FB5CLKk4peCrhKvAd2Ab0PuOFz0IINvsBBc9MgHtXyNVvdhJSLqdrK3-U2iFaH0dfTrDZjeS81_HQzhPPa20O2UMzI0"
+    },
+    "query": {
+        "profil": "Petr Novák",
+        "token": "eGhHa1-6SA2p3Ftr75C20T:APA91bFVe5k7emtfTN4meG40QUx6FB5CLKk4peCrhKvAd2Ab0PuOFz0IINvsBBc9MgHtXyNVvdhJSLqdrK3-U2iFaH0dfTrDZjeS81_HQzhPPa20O2UMzI0"
+    },
+    "params": {}
+}

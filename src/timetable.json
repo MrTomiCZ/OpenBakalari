@@ -1,0 +1,1494 @@
+{
+    "Hours": [
+        {
+            "Id": 3,
+            "Caption": "1",
+            "BeginTime": "8:00",
+            "EndTime": "8:45",
+            "Start": 480,
+            "Duration": 45
+        },
+        {
+            "Id": 4,
+            "Caption": "2",
+            "BeginTime": "8:55",
+            "EndTime": "9:40",
+            "Start": 535,
+            "Duration": 45
+        },
+        {
+            "Id": 5,
+            "Caption": "3",
+            "BeginTime": "9:55",
+            "EndTime": "10:40",
+            "Start": 595,
+            "Duration": 45
+        },
+        {
+            "Id": 6,
+            "Caption": "4",
+            "BeginTime": "10:50",
+            "EndTime": "11:35",
+            "Start": 650,
+            "Duration": 45
+        },
+        {
+            "Id": 7,
+            "Caption": "5",
+            "BeginTime": "11:45",
+            "EndTime": "12:30",
+            "Start": 705,
+            "Duration": 45
+        },
+        {
+            "Id": 8,
+            "Caption": "6",
+            "BeginTime": "12:40",
+            "EndTime": "13:25",
+            "Start": 760,
+            "Duration": 45
+        },
+        {
+            "Id": 9,
+            "Caption": "7",
+            "BeginTime": "13:35",
+            "EndTime": "14:20",
+            "Start": 815,
+            "Duration": 45
+        },
+        {
+            "Id": 10,
+            "Caption": "8",
+            "BeginTime": "14:30",
+            "EndTime": "15:15",
+            "Start": 870,
+            "Duration": 45
+        }
+    ],
+    "Days": [
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "Start": 480,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UNBNX",
+                    "RoomId": "G4",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-14T00:00:00+02:00",
+                        "Hours": "1. hod",
+                        "ChangeType": "Substitution",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Spojeno s 5.(Sk2): Ch, Blažová Kateřina, 111",
+                        "Time": "8:00 - 8:45",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 480,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Školení bezpečnosti v laboratoři chemie a biologie, seznámení s laboratorním řádem laboratoří, první pomoc",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 4,
+                    "Start": 535,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UNBNX",
+                    "RoomId": "51",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-14T00:00:00+02:00",
+                        "Hours": "2. hod",
+                        "ChangeType": "RoomChanged",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Změna místnosti: 211",
+                        "Time": "8:55 - 9:40",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 535,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Názvosloví kyselin",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 5,
+                    "Start": 595,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XD"
+                    ],
+                    "SubjectId": "17",
+                    "TeacherId": "U64I2",
+                    "RoomId": "30",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Atletická abeceda",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 6,
+                    "Start": 650,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XD"
+                    ],
+                    "SubjectId": "17",
+                    "TeacherId": "U64I2",
+                    "RoomId": "OG",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Dálka",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 7,
+                    "Start": 705,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": " 8",
+                    "TeacherId": "UVCG9",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-14T00:00:00+02:00",
+                        "Hours": "5. hod",
+                        "ChangeType": "Added",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun z  14.9., 13:35: Dě, Pernová Markéta, 201",
+                        "Time": "11:45 - 12:30",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 705,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Referáty. ČSR v 60. letech.",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 8,
+                    "Start": 760,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "51"
+                    ],
+                    "SubjectId": " 6",
+                    "TeacherId": "UK7UN",
+                    "RoomId": "T0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Poslech s porozuměním: animaux de compagnie",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 9,
+                    "Start": 815,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-14T00:00:00+02:00",
+                        "Hours": "7. hod",
+                        "ChangeType": "Removed",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun na 14.9., 11:45",
+                        "Time": "13:35 - 14:20",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 815,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 10,
+                    "Start": 870,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-14T00:00:00+02:00",
+                        "Hours": "8. hod",
+                        "ChangeType": "Removed",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Vyjmuto z rozvrhu",
+                        "Time": "14:30 - 15:15",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 870,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                }
+            ],
+            "AssistanceAtoms": [],
+            "DayOfWeek": 1,
+            "Date": "2026-09-14T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "Start": 480,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "51"
+                    ],
+                    "SubjectId": " 6",
+                    "TeacherId": "UK7UN",
+                    "RoomId": "DT",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-15T00:00:00+02:00",
+                        "Hours": "1. hod",
+                        "ChangeType": "RoomChanged",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Změna místnosti: 103",
+                        "Time": "8:00 - 8:45",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 480,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Četba s porozuměním: description des animaux",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 4,
+                    "Start": 535,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "10",
+                    "TeacherId": "UWBOM",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Zlomky, desetinná čísla - procvičování",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 5,
+                    "Start": 595,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "UTEMU",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Postavení češtiny mezi ostatními jazyky",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 6,
+                    "Start": 650,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": "0L",
+                    "TeacherId": "UHIDK4",
+                    "RoomId": "3Z",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-15T00:00:00+02:00",
+                        "Hours": "4. hod",
+                        "ChangeType": "Substitution",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Spojeno s 5.(Sk2): Ikt, Kybl Zdeněk, 202",
+                        "Time": "10:50 - 11:35",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 650,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Druhá, třetí a čtvrtá generace počítačů, umělá inteligence",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 7,
+                    "Start": 705,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "12",
+                    "TeacherId": "UNBNX",
+                    "RoomId": "G4",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-15T00:00:00+02:00",
+                        "Hours": "5. hod",
+                        "ChangeType": "Added",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun z  15.9., 14:30: Ch, Blažová Kateřina, 111",
+                        "Time": "11:45 - 12:30",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 705,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Názvosloví solí kyselin",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 8,
+                    "Start": 760,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "11",
+                    "TeacherId": "UZBNM",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-15T00:00:00+02:00",
+                        "Hours": "6. hod",
+                        "ChangeType": "Added",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun z  15.9., 13:35: Fy, Hrádková Kateřina, 201",
+                        "Time": "12:40 - 13:25",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 760,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Rozklad vektorů",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 9,
+                    "Start": 815,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-15T00:00:00+02:00",
+                        "Hours": "7. hod",
+                        "ChangeType": "Removed",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun na 15.9., 12:40",
+                        "Time": "13:35 - 14:20",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 815,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 10,
+                    "Start": 870,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-15T00:00:00+02:00",
+                        "Hours": "8. hod",
+                        "ChangeType": "Removed",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun na 15.9., 11:45",
+                        "Time": "14:30 - 15:15",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 870,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                }
+            ],
+            "AssistanceAtoms": [],
+            "DayOfWeek": 2,
+            "Date": "2026-09-15T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "Start": 480,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "1T",
+                    "TeacherId": "UTEMU",
+                    "RoomId": "0X",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Umění pravěku",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 4,
+                    "Start": 535,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-16T00:00:00+02:00",
+                        "Hours": "2. - 3. hod",
+                        "ChangeType": "Absence",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Exkurze: Tichá Dita",
+                        "Time": "8:55 - 10:40",
+                        "TypeAbbrev": "Ex",
+                        "TypeName": "Exkurze",
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 535,
+                        "Duration": 105
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": null,
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 5,
+                    "Start": 595,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-16T00:00:00+02:00",
+                        "Hours": "2. - 3. hod",
+                        "ChangeType": "Absence",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Exkurze: Tichá Dita",
+                        "Time": "8:55 - 10:40",
+                        "TypeAbbrev": "Ex",
+                        "TypeName": "Exkurze",
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 535,
+                        "Duration": 105
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": null,
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 6,
+                    "Start": 650,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "10",
+                    "TeacherId": "UWBOM",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Druhá odmocnina",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 8,
+                    "Start": 760,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": " 4",
+                    "TeacherId": "UWBOM",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-16T00:00:00+02:00",
+                        "Hours": "6. hod",
+                        "ChangeType": "Substitution",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Spojeno s 5.(Sk2): Aj, Černá Barbora, 201",
+                        "Time": "12:40 - 13:25",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 760,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Didaktický test - poslech",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 9,
+                    "Start": 815,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "UTEMU",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-16T00:00:00+02:00",
+                        "Hours": "7. hod",
+                        "ChangeType": "Added",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun z  16.9., 14:30: Čj, Tichá Dita, 201",
+                        "Time": "13:35 - 14:20",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 815,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Literární druhy a žánry",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 10,
+                    "Start": 870,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-16T00:00:00+02:00",
+                        "Hours": "8. hod",
+                        "ChangeType": "Removed",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun na 16.9., 13:35",
+                        "Time": "14:30 - 15:15",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 870,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                }
+            ],
+            "AssistanceAtoms": [],
+            "DayOfWeek": 3,
+            "Date": "2026-09-16T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "Start": 480,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "11",
+                    "TeacherId": "UZBNM",
+                    "RoomId": "N5",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Rozklad vektorů",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 4,
+                    "Start": 535,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "13",
+                    "TeacherId": "UYBOU",
+                    "RoomId": "51",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-17T00:00:00+02:00",
+                        "Hours": "2. hod",
+                        "ChangeType": "Added",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun z  17.9., 13:35: Bi, Pelešková Iva, 211",
+                        "Time": "8:55 - 9:40",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 535,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Buňka",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 5,
+                    "Start": 595,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "UTEMU",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Dramatické žánry; Literýrní formy",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 6,
+                    "Start": 650,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": "0L",
+                    "TeacherId": "UHIDK4",
+                    "RoomId": "3Z",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Strojové učení, metody strojového učení",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 8,
+                    "Start": 760,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "51"
+                    ],
+                    "SubjectId": " 6",
+                    "TeacherId": "UK7UN",
+                    "RoomId": "U2",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Vocabulaire des animaux",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 9,
+                    "Start": 815,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": " 8",
+                    "TeacherId": "UVCG9",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-17T00:00:00+02:00",
+                        "Hours": "7. hod",
+                        "ChangeType": "Added",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun z  17.9., 14:30: Dě, Pernová Markéta, 201",
+                        "Time": "13:35 - 14:20",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 815,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Historie jako věda. Archeologie.",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 10,
+                    "Start": 870,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-17T00:00:00+02:00",
+                        "Hours": "8. hod",
+                        "ChangeType": "Removed",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Přesun na 17.9., 13:35",
+                        "Time": "14:30 - 15:15",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 870,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                }
+            ],
+            "AssistanceAtoms": [],
+            "DayOfWeek": 4,
+            "Date": "2026-09-17T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        },
+        {
+            "Atoms": [
+                {
+                    "HourId": 3,
+                    "Start": 480,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": "10",
+                    "TeacherId": "UWBOM",
+                    "RoomId": "32",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Zlomky - procvičování, druhá a třetí odmocnina",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 4,
+                    "Start": 535,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": " 2",
+                    "TeacherId": "UTEMU",
+                    "RoomId": "T0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Prostředky umělecké literatury - práce s texty",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 5,
+                    "Start": 595,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "13",
+                    "TeacherId": "UYBOU",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Stavba prokaryotické buňky",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 6,
+                    "Start": 650,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "XC"
+                    ],
+                    "SubjectId": "64",
+                    "TeacherId": "UZBP1",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Významné psychologické směry",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 7,
+                    "Start": 705,
+                    "Duration": 45,
+                    "GroupIds": [
+                        "0N"
+                    ],
+                    "SubjectId": " 4",
+                    "TeacherId": "UZBND",
+                    "RoomId": "C0",
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [
+                        "1"
+                    ],
+                    "Change": null,
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": "Osobnost",
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                },
+                {
+                    "HourId": 8,
+                    "Start": 760,
+                    "Duration": 45,
+                    "GroupIds": [],
+                    "SubjectId": null,
+                    "TeacherId": null,
+                    "RoomId": null,
+                    "IsLastRoomLesson": false,
+                    "CycleIds": [],
+                    "Change": {
+                        "ChangeSubject": null,
+                        "Day": "2026-09-18T00:00:00+02:00",
+                        "Hours": "6. hod",
+                        "ChangeType": "Canceled",
+                        "ChangeDisplayType": "OriginalTeacher",
+                        "Description": "Zrušeno",
+                        "Time": "12:40 - 13:25",
+                        "TypeAbbrev": null,
+                        "TypeName": null,
+                        "AtomType": "Hour",
+                        "ChangeLessonInfo": null,
+                        "BeginTime": null,
+                        "EndTime": null,
+                        "Start": 760,
+                        "Duration": 45
+                    },
+                    "HomeworkIds": [],
+                    "Homeworks": [],
+                    "Theme": null,
+                    "WeekTheme": null,
+                    "Assistants": [],
+                    "Notice": "",
+                    "LessonRelease": "NoChange",
+                    "PlannedClasification": null
+                }
+            ],
+            "AssistanceAtoms": [],
+            "DayOfWeek": 5,
+            "Date": "2026-09-18T00:00:00+02:00",
+            "DayDescription": "",
+            "DayType": "WorkDay"
+        }
+    ],
+    "Classes": [
+        {
+            "Id": "Y2",
+            "Abbrev": "5.",
+            "Name": "kvinta"
+        }
+    ],
+    "Groups": [
+        {
+            "ClassId": "Y2",
+            "Id": "51",
+            "Abbrev": "5. Fj",
+            "Name": "kvinta Francouzský jazyk"
+        },
+        {
+            "ClassId": "Y2",
+            "Id": "XD",
+            "Abbrev": "5. Chl",
+            "Name": "kvinta chlapci"
+        },
+        {
+            "ClassId": "Y2",
+            "Id": "XC",
+            "Abbrev": "5.",
+            "Name": "kvinta"
+        },
+        {
+            "ClassId": "Y2",
+            "Id": "0N",
+            "Abbrev": "5. Sk1",
+            "Name": "kvinta "
+        }
+    ],
+    "Subjects": [
+        {
+            "Id": " 6",
+            "Abbrev": "Frj",
+            "Name": "Francouzský jazyk"
+        },
+        {
+            "Id": "17",
+            "Abbrev": "Tv",
+            "Name": "Tělesná výchova"
+        },
+        {
+            "Id": " 8",
+            "Abbrev": "Děj",
+            "Name": "Dějepis"
+        },
+        {
+            "Id": "12",
+            "Abbrev": "Che",
+            "Name": "Chemie"
+        },
+        {
+            "Id": " 2",
+            "Abbrev": "Čaj",
+            "Name": "Český jazyk"
+        },
+        {
+            "Id": "10",
+            "Abbrev": "Mat",
+            "Name": "Matematika"
+        },
+        {
+            "Id": "0L",
+            "Abbrev": "Ikt",
+            "Name": "Informační technologie"
+        },
+        {
+            "Id": "11",
+            "Abbrev": "Fyz",
+            "Name": "Fyzika"
+        },
+        {
+            "Id": " 4",
+            "Abbrev": "Anj",
+            "Name": "Anglický jazyk"
+        },
+        {
+            "Id": "1T",
+            "Abbrev": "Obv",
+            "Name": "Občanská výchova"
+        },
+        {
+            "Id": "13",
+            "Abbrev": "Bio",
+            "Name": "Biologie"
+        },
+        {
+            "Id": "64",
+            "Abbrev": "Geo",
+            "Name": "Geografie"
+        }
+    ],
+    "Teachers": [
+        {
+            "Id": "UK7UN",
+            "Abbrev": "jNov",
+            "Name": "Mgr. Jan Novotný"
+        },
+        {
+            "Id": "U64I2",
+            "Abbrev": "mPot",
+            "Name": "Mgr. Markéta Potrubcová"
+        },
+        {
+            "Id": "UVCG9",
+            "Abbrev": "jBla",
+            "Name": "Mgr. Jana Blažková"
+        },
+        {
+            "Id": "UNBNX",
+            "Abbrev": "kKra",
+            "Name": "Ing. Kateřina Králová"
+        },
+        {
+            "Id": "UTEMU",
+            "Abbrev": "oPos",
+            "Name": "Mgr. Ondřej Pospíšil"
+        },
+        {
+            "Id": "UWBOM",
+            "Abbrev": "jZel",
+            "Name": "Ing. Jakub Zelený"
+        },
+        {
+            "Id": "UOBNY",
+            "Abbrev": "lKyb",
+            "Name": "Ing. Ladislav Kyblík"
+        },
+        {
+            "Id": "UZBNM",
+            "Abbrev": "aKov",
+            "Name": "Mgr. Anežka Kovářová"
+        },
+        {
+            "Id": "UYBOU",
+            "Abbrev": "iDvo",
+            "Name": "Mgr. Iva Dvořáková"
+        },
+        {
+            "Id": "UZBND",
+            "Abbrev": "mŠmí",
+            "Name": "Magdaléna Šmídová"
+        },
+        {
+            "Id": "UZBP1",
+            "Abbrev": "tVrá",
+            "Name": "Bc. Tomáš Vrána"
+        },
+        {
+            "Id": "UHIDK4",
+            "Abbrev":"pNov",
+            "Name": "Petr Novák"
+        }
+    ],
+    "Rooms": [
+        {
+            "Id": "T0",
+            "Abbrev": "001",
+            "Name": "Jazyková učebna"
+        },
+        {
+            "Id": "30",
+            "Abbrev": "009",
+            "Name": "Velká tělocvična"
+        },
+        {
+            "Id": "OG",
+            "Abbrev": "007",
+            "Name": "Malá tělocvična"
+        },
+        {
+            "Id": "C0",
+            "Abbrev": "201",
+            "Name": ""
+        },
+        {
+            "Id": "51",
+            "Abbrev": "211",
+            "Name": "Posluchárna biologie"
+        },
+        {
+            "Id": "G4",
+            "Abbrev": "111",
+            "Name": "Posluchárna chemie"
+        },
+        {
+            "Id": "DT",
+            "Abbrev": "103",
+            "Name": ""
+        },
+        {
+            "Id": "3Z",
+            "Abbrev": "202",
+            "Name": "Ikt"
+        },
+        {
+            "Id": "0X",
+            "Abbrev": "002",
+            "Name": "Výtvarná výchova"
+        },
+        {
+            "Id": "N5",
+            "Abbrev": "101",
+            "Name": "Posluchárna fyziky"
+        },
+        {
+            "Id": "U2",
+            "Abbrev": "204",
+            "Name": ""
+        },
+        {
+            "Id": "32",
+            "Abbrev": "105",
+            "Name": ""
+        }
+    ],
+    "Cycles": [
+        {
+            "Id": "1",
+            "Abbrev": "L",
+            "Name": "lichý týden"
+        }
+    ],
+    "Students": []
+}

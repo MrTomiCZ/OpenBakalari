@@ -1,0 +1,348 @@
+{
+  "UserUID": "5145/ZGWYL6",
+  "CampaignCategoryCode": "eyJzaWQiOiI1MTQ1IiwidXQiOjYwLCJzeSI6MTV9",
+  "Class": {
+    "Id": "PD",
+    "Abbrev": "9.",
+    "Name": "devátá"
+  },
+  "TeacherClasses": null,
+  "FullName": "Petr Novák, 9.",
+  "SchoolOrganizationName": "název školy",
+  "SchoolType": null,
+  "UserType": "parents",
+  "UserTypeText": "rodič",
+  "StudyYear": 10,
+  "EnabledModules": [
+    {
+"Module": "Classbook",
+"Rights": []
+     },
+    {
+      "Module": "Komens",
+      "Rights": [
+        "ShowReceivedMessages",
+        "ShowSentMessages",
+        "ShowNoticeBoardMessages",
+        "SaveConcept",
+        "ShowConcepts",
+        "SendMessages",
+        "ShowRatingDetails",
+        "SendAttachments"
+      ]
+    },
+    {
+      "Module": "Absence",
+      "Rights": [
+        "ShowAbsence",
+        "ShowAbsencePercentage"
+      ]
+    },
+    {
+      "Module": "Events",
+      "Rights": [
+        "ShowEvents"
+      ]
+    },
+    {
+      "Module": "Marks",
+      "Rights": [
+        "ShowFinalMarks",
+        "ShowManners",
+        "ShowMarks",
+        "PredictMarks"
+      ]
+    },
+    {
+      "Module": "Timetable",
+      "Rights": [
+        "ShowTimetable",
+        "WriteTimetableasdasdas"
+      ]
+    },
+    {
+      "Module": "Substitutions",
+      "Rights": [
+        "ShowSubstitutions"
+      ]
+    },
+    {
+      "Module": "Subjects",
+      "Rights": [
+        "ShowSubjects",
+        "ShowSubjectThemes"
+      ]
+    },
+    {
+      "Module": "Gdpr",
+      "Rights": [
+        "ShowOwnConsents",
+        "ShowCommissioners"
+      ]
+    },
+    {
+      "Module": "Campaign",
+      "Rights": [
+        "ShowCampaign"
+      ]
+    }
+  ],
+  "SettingModules": {
+    "Komens": {
+      "$type": "KomensModuleSettings",
+      "UploadFolderVerified": true,
+      "CurrentSchoolYearStartDate": "2026-07-10T00:00:00+02:00"
+    },
+    "Marking": {
+      "$type": "MarksModuleSettings",
+      "RequiredClassificationConfirmation": false,
+      "ClassificationConfirmationClassesList": [],
+      "ClassificationConfirmationNotification": true,
+      "NumberOfDaysClassificationConfirmationNotifications": 14
+    },
+    "Timetable": {
+      "$type": "TimetableModuleSettings",
+      "DisplayType": "Classic",
+      "HoursDefinition": [
+        {
+          "Id": 0,
+          "Caption": "-2",
+          "Start": 315,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 1,
+          "Caption": "-1",
+          "Start": 370,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 2,
+          "Caption": "0",
+          "Start": 425,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 3,
+          "Caption": "1",
+          "Start": 480,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 4,
+          "Caption": "2",
+          "Start": 535,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 5,
+          "Caption": "3",
+          "Start": 595,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 6,
+          "Caption": "4",
+          "Start": 650,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 7,
+          "Caption": "5",
+          "Start": 705,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 8,
+          "Caption": "6",
+          "Start": 760,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 9,
+          "Caption": "7",
+          "Start": 815,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 10,
+          "Caption": "8",
+          "Start": 870,
+          "Duration": 45,
+          "IsVisible": true
+        },
+        {
+          "Id": 11,
+          "Caption": "9",
+          "Start": 925,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 12,
+          "Caption": "10",
+          "Start": 980,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 13,
+          "Caption": "11",
+          "Start": 1035,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 14,
+          "Caption": "12",
+          "Start": 1130,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 15,
+          "Caption": "13",
+          "Start": 1185,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 16,
+          "Caption": "14",
+          "Start": 1240,
+          "Duration": 55,
+          "IsVisible": false
+        },
+        {
+          "Id": 17,
+          "Caption": "15",
+          "Start": 1315,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 18,
+          "Caption": "16",
+          "Start": 1370,
+          "Duration": 45,
+          "IsVisible": false
+        },
+        {
+          "Id": 19,
+          "Caption": "17",
+          "Start": 1425,
+          "Duration": 10,
+          "IsVisible": false
+        }
+      ],
+      "DaysDefinition": [
+        {
+          "Id": 0,
+          "Abbrev": "Po",
+          "Caption": "Pondělí",
+          "IsVisible": true
+        },
+        {
+          "Id": 1,
+          "Abbrev": "Út",
+          "Caption": "Úterý",
+          "IsVisible": true
+        },
+        {
+          "Id": 2,
+          "Abbrev": "St",
+          "Caption": "Středa",
+          "IsVisible": true
+        },
+        {
+          "Id": 3,
+          "Abbrev": "Čt",
+          "Caption": "Čtvrtek",
+          "IsVisible": true
+        },
+        {
+          "Id": 4,
+          "Abbrev": "Pá",
+          "Caption": "Pátek",
+          "IsVisible": true
+        },
+        {
+          "Id": 5,
+          "Abbrev": "So",
+          "Caption": "Sobota",
+          "IsVisible": false
+        },
+        {
+          "Id": 6,
+          "Abbrev": "Ne",
+          "Caption": "Neděle",
+          "IsVisible": true
+        }
+      ],
+      "HeaderType": "HourIndex"
+    },
+    "Homeworks": {
+      "$type": "HomeworksModuleSettings",
+      "UploadFolderVerified": true
+    },
+    "ClassBook": {
+      "$type": "ClassBookModuleSettings",
+      "AbsenceCalculationType": "Lessons",
+      "AbsenceCalculationPeriod": [
+        {
+          "SemesterId": "1",
+          "From": "2026-09-01T00:00:00+02:00",
+          "To": "2027-01-22T23:59:59+01:00"
+        },
+        {
+          "SemesterId": "2",
+          "From": "2027-01-25T00:00:00+01:00",
+          "To": "2027-06-18T23:59:59+02:00"
+        }
+      ]
+    },
+    "Common": {
+      "$type": "CommonModuleSettings",
+      "ActualSemester": {
+        "SemesterId": "1",
+        "From": "2026-08-04T00:00:00+02:00",
+        "To": "2027-02-14T23:59:59+01:00"
+      },
+      "ActualSchoolYear": {
+        "Id": "2026/27",
+        "Name": "2026/27",
+        "EffectiveStartDate": "2026-09-01T00:00:00+02:00",
+        "EffectiveEndDate": "2027-06-30T23:59:59+02:00"
+      }
+    },
+    "Emergency": {
+      "$type": "EmergencyModuleSettings",
+      "FirestoreDbName": "production",
+      "EmergencyServerUrl": "https://emergency.service.bakalari.cz",
+      "IsSmsLicensed": false
+    }
+  },
+  "FullUserName": "Josef Novák",
+  "Students": [
+    {
+      "FullName": "Petr Novák, 9.",
+      "Class": {
+        "Id": "PD",
+        "Abbrev": "9.",
+        "Name": "devátá"
+      },
+      "SchoolType": null,
+      "StudyYear": 10
+    }
+  ]
+}

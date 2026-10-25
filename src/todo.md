@@ -1,0 +1,4 @@
+- znamky
+- rozvrh
+- groupky
+  - rozvrh a nastavení uživatele (např. které moduly vidí, typ účtu) apod. se bude zadávat přes skupiny
