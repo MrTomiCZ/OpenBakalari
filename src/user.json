@@ -10,7 +10,7 @@
   "FullName": "Petr Novák, 9.",
   "SchoolOrganizationName": "název školy",
   "SchoolType": null,
-  "UserType": "parents",
+  "UserType": "teacher",
   "UserTypeText": "rodič",
   "StudyYear": 10,
   "EnabledModules": [

@@ -1262,7 +1262,36 @@
             "Date": "2026-09-18T00:00:00+02:00",
             "DayDescription": "",
             "DayType": "WorkDay"
+        },
+{
+    "Atoms": [
+        {
+            "HourId": 3,
+            "Start": 480,
+            "Duration": 45,
+            "GroupIds": ["XC"],
+            "SubjectId": " 2",
+            "TeacherId": "UTEMU",
+            "RoomId": "C0",
+            "IsLastRoomLesson": false,
+            "CycleIds": ["1"],
+            "Change": null,
+            "HomeworkIds": [],
+            "Homeworks": [],
+            "Theme": null,
+            "WeekTheme": null,
+            "Assistants": [],
+            "Notice": "",
+            "LessonRelease": "NoChange",
+            "PlannedClasification": null
         }
+    ],
+    "AssistanceAtoms": [],
+    "DayOfWeek": 0,
+    "Date": "2026-09-20T00:00:00+02:00",
+    "DayDescription": "",
+    "DayType": "WorkDay"
+}
     ],
     "Classes": [
         {
