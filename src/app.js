@@ -11,7 +11,7 @@ const jwt = require("jsonwebtoken");
 //express
 const xprs = express();
 //config basic
-const PORT = 25133;
+const PORT = process.env.PORT || 25133;
 const ver = "3.43.0";
 const appver = "1.82.206.1";
 const debugging = process.env.DEBUG || undefined;
