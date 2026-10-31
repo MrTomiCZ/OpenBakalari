@@ -151,7 +151,17 @@ xprs.use("/api/login", (req, res) => {
         let decoded;
         try {
             decoded = jwt.verify(refresh_token, jwtpublickey, { algorithms: ['RS256'] });
-        } catch {return}
+        } catch {
+            return res
+                .status(400)
+                .json({
+                    "error": "invalid_grant",
+                    "error_description": "Neplatný Refresh token",
+                    "error_uri": "https://documentation.openiddict.com/errors/ID2024",
+                    "bak:ApiVersion": ver,
+                    "bak:AppVersion": appver
+                });
+        }
         const user = userdb.find(u => u.id === decoded.sub);
         if (!user) {
             return res
