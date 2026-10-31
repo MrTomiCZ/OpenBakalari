@@ -164,10 +164,12 @@ xprs.use("/api", (req, res, next) => {
 //console.log(mockDB);
 
 xprs.use("/api/3/timetable/permanent", (req,res)=>{
-        const token = req.headers.authorization.substring(7);
-        const decoded = jwt.verify(token, jwtpublickey, { algorithms: ['RS256'] });
-        const user = userdb.find(u => u.id === decoded.sub);
-        const sub = decoded.sub;
+        const token = /^Bearer ([^\s]+)$/i.exec(req.headers.authorization || "");
+        let decoded;
+        try {
+            decoded = jwt.verify(token ? token[1] : "", jwtpublickey, { algorithms: ['RS256'] });
+        } catch {decoded = null;}
+        const user = decoded && userdb.find(u => u.id === decoded.sub);
         if (!user) {
             return res
                 .status(401)
