@@ -106,17 +106,20 @@ xprs.use((req, res, next) => {
 });
 
 // moduly
-fs.readdirSync("../moduly").forEach(subor => {
-    const openbk_modul = {
-        "original": subor
-    };
-    const uvnitr = fs.readFileSync(
-        path.join("../moduly", subor),
-        "utf8"
-    );
+fs.readdirSync("../moduly")
+    .filter(subor => subor.endsWith(".js"))
+    .forEach(subor => {
+        const openbk_modul = {
+            "original": subor
+        };
 
-    eval(uvnitr);
-});
+        const uvnitr = fs.readFileSync(
+            path.join("../moduly", subor),
+            "utf8"
+        );
+
+        eval(uvnitr);
+    });
 
 // root apex
 xprs.get("/", (req, res) => {
@@ -142,6 +145,8 @@ xprs.use("/api/3", (req, res, next) => {
 });
 
 //nevim tohle tady je od zacatku
+// vim, to co je o par radku vyse ale
+// jaky VSECHNY jsou dostupny (kompatibilita)
 xprs.use("/api", (req, res, next) => {
     if (req.path !== "/") return next();
     if (req.method !== "GET") {
