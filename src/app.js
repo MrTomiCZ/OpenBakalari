@@ -62,19 +62,6 @@ c.w("openbakalari jsou ve VELMI rane fazi vyvoje, ocekavej bugy");
 xprs.use(express.urlencoded({ extended: true }));
 xprs.use(express.json());
 
-// moduly
-fs.readdirSync("../moduly").forEach(subor => {
-    const openbk_modul = {
-        "original": subor
-    };
-    const uvnitr = fs.readFileSync(
-        path.join("../moduly", subor),
-        "utf8"
-    );
-
-    eval(uvnitr);
-});
-
 // logger
 xprs.use((req, res, next) => {
     // prijmuti
@@ -116,6 +103,19 @@ xprs.use((req, res, next) => {
         }
     }
     next();
+});
+
+// moduly
+fs.readdirSync("../moduly").forEach(subor => {
+    const openbk_modul = {
+        "original": subor
+    };
+    const uvnitr = fs.readFileSync(
+        path.join("../moduly", subor),
+        "utf8"
+    );
+
+    eval(uvnitr);
 });
 
 // root apex
