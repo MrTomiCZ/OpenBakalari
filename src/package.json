@@ -21,7 +21,7 @@
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node --test tests/*.test.js",
     "dev": "nodemon app.js",
     "prod": "node app.js",
     "debug": "nodemon proxi.js"
