@@ -168,25 +168,84 @@ xprs.use("/api", (req, res, next) => {
 
 //console.log(mockDB);
 
-xprs.use("/api/3/timetable/permanent", (req,res)=>{
-        const token = req.headers.authorization.substring(7);
-        const decoded = jwt.verify(token, jwtpublickey, { algorithms: ['RS256'] });
-        const user = userdb.find(u => u.id === decoded.sub);
-        const sub = decoded.sub;
-        if (!user) {
-            return res
-                .status(401)
-                .json({
-                    "Message":"Authorization has been denied for this request.",
-                    "bak:ApiVersion": ver,
-                    "bak:AppVersion": appver
-                });
-        }
-        const timetables = JSON.parse(fs.readFileSync("database/timetables-permanent.json", "utf-8"));
-        const timetable = timetables.find(t => t.userid === decoded.sub).timetable;
+xprs.use("/api/3/timetable/permanent", (req, res) => {
+    const authError = () => res.status(401).json({
+        Message: "Pro tento požadavek byla zamítnuta autorizace.",
+        "bak:ApiVersion": ver,
+        "bak:AppVersion": appver
+    });
 
-        res.status(200);
-        res.send(timetable);
+    // zkontroluje zda auth header existuje a je validni
+    const authHeader = req.headers.authorization;
+
+    if (!authHeader || !/^Bearer \S+$/i.test(authHeader)) {
+        return authError();
+    }
+
+    const token = authHeader.slice(7);
+
+    // verify jwt token
+    let decoded;
+
+    try {
+        decoded = jwt.verify(token, jwtpublickey, {
+            algorithms: ["RS256"]
+        });
+    } catch (error) {
+        return authError();
+    }
+
+    // zkontrolovat zda uzivatel existuje
+    if (!Array.isArray(userdb)) {
+        return res.status(503).json({
+            Message: "Databáze uživatelů není připravena.",
+            "bak:ApiVersion": ver,
+            "bak:AppVersion": appver
+        });
+    }
+
+    const user = userdb.find(u => u.id === decoded.sub);
+
+    if (!user) {
+        return authError();
+    }
+
+    // Load the user's timetable
+    let timetables;
+
+    try {
+        const data = fs.readFileSync(
+            path.join(__dirname, "database", "timetables-permanent.json"),
+            "utf-8"
+        );
+
+        timetables = JSON.parse(data);
+
+        if (!Array.isArray(timetables)) {
+            throw new Error("Neplatný formát databáze rozvrhů hodin");
+        }
+    } catch (error) {
+        c.e("Nepodařilo se načíst databázi rozvrhů hodin: " + error.message);
+
+        return res.status(500).json({
+            Message: "Data rozvrhů hodin se nepodařilo načíst.",
+            "bak:ApiVersion": ver,
+            "bak:AppVersion": appver
+        });
+    }
+
+    // tohle najde rozvrh prihlaseneho uzivatele
+    const record = timetables.find(t => t.userid === decoded.sub);
+
+    if (!record || record.timetable == null) {
+        return res.status(404).json({
+            Message: "Rozvrh nenalezen.",
+            "bak:ApiVersion": ver,
+            "bak:AppVersion": appver
+        });
+    }
+
+    return res.status(200).json(record.timetable);
 });
 xprs.use("/api/3/timetable/actual", (req,res)=>{
     const xd = JSON.parse(fs.readFileSync("timetable.json","utf-8"));
