@@ -170,7 +170,7 @@ xprs.use("/api", (req, res, next) => {
 
 xprs.use("/api/3/timetable/permanent", (req, res) => {
     const authError = () => res.status(401).json({
-        Message: "Pro tento požadavek byla zamítnuta autorizace.",
+        Message: "Authorization has been denied for this request.",
         "bak:ApiVersion": ver,
         "bak:AppVersion": appver
     });
@@ -238,7 +238,7 @@ xprs.use("/api/3/timetable/permanent", (req, res) => {
     const record = timetables.find(t => t.userid === decoded.sub);
 
     if (!record || record.timetable == null) {
-        return res.status(404).json({
+        return res.status(500).json({
             Message: "Rozvrh nenalezen.",
             "bak:ApiVersion": ver,
             "bak:AppVersion": appver
