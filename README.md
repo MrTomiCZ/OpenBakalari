@@ -20,5 +20,7 @@ Poté spuštění:
 npm run prod
 ```
 
-
-Tento projekt _bude_ možný díky [(úžasné) dokumentaci bakalářů](https://github.com/bakalari-api/bakalari-api-v3).
+# Credits
+- [dokumentace API v3 bakalářů](https://github.com/bakalari-api/bakalari-api-v3) - inspirovalo mě vůbec celkově pracovat s Bakaláři API
+- [vextrixe rust typy](https://github.com/vextrixes/bakalari-types) - jakoby dokumentace, o hodně víc informací než má bakalari-api-v3
+- tiktok @vojtavlas
