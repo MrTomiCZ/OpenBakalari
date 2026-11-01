@@ -168,6 +168,7 @@ xprs.use("/api", (req, res, next) => {
 
 //console.log(mockDB);
 
+
 xprs.use("/api/3/timetable/permanent", (req, res) => {
     const authError = () => res.status(401).json({
         Message: "Authorization has been denied for this request.",
@@ -198,7 +199,7 @@ xprs.use("/api/3/timetable/permanent", (req, res) => {
     // zkontrolovat zda uzivatel existuje
     if (!Array.isArray(userdb)) {
         return res.status(503).json({
-            Message: "Databáze uživatelů není připravena.",
+            Message: "User database is not ready.",
             "bak:ApiVersion": ver,
             "bak:AppVersion": appver
         });
@@ -210,7 +211,7 @@ xprs.use("/api/3/timetable/permanent", (req, res) => {
         return authError();
     }
 
-    // Load the user's timetable
+    // nacte uzivatelovo rozvrh
     let timetables;
 
     try {
@@ -222,24 +223,24 @@ xprs.use("/api/3/timetable/permanent", (req, res) => {
         timetables = JSON.parse(data);
 
         if (!Array.isArray(timetables)) {
-            throw new Error("Neplatný formát databáze rozvrhů hodin");
+            throw new Error("Invalid timetable database format");
         }
     } catch (error) {
-        c.e("Nepodařilo se načíst databázi rozvrhů hodin: " + error.message);
+        c.e("Failed to load timetable database: " + error.message);
 
         return res.status(500).json({
-            Message: "Data rozvrhů hodin se nepodařilo načíst.",
+            Message: "Failed to load timetable data.",
             "bak:ApiVersion": ver,
             "bak:AppVersion": appver
         });
     }
 
-    // tohle najde rozvrh prihlaseneho uzivatele
+    // najde rozvrh prihlaseneho uzivatele
     const record = timetables.find(t => t.userid === decoded.sub);
 
     if (!record || record.timetable == null) {
         return res.status(500).json({
-            Message: "Rozvrh nenalezen.",
+            Message: "Timetable not found.",
             "bak:ApiVersion": ver,
             "bak:AppVersion": appver
         });
@@ -247,9 +248,63 @@ xprs.use("/api/3/timetable/permanent", (req, res) => {
 
     return res.status(200).json(record.timetable);
 });
-xprs.use("/api/3/timetable/actual", (req,res)=>{
-    const xd = JSON.parse(fs.readFileSync("timetable.json","utf-8"));
-    res.json(xd);
+xprs.use("/api/3/timetable/actual", (req, res) => {
+    const authError = () => res.status(401).json({
+        Message: "Authorization has been denied for this request.",
+        "bak:ApiVersion": ver,
+        "bak:AppVersion": appver
+    });
+
+    const authHeader = req.headers.authorization;
+
+    if (!authHeader || !/^Bearer \S+$/i.test(authHeader)) {
+        return authError();
+    }
+
+    const token = authHeader.slice(7);
+
+    let decoded;
+
+    try {
+        decoded = jwt.verify(token, jwtpublickey, {
+            algorithms: ["RS256"]
+        });
+    } catch (error) {
+        return authError();
+    }
+
+    if (!Array.isArray(userdb)) {
+        return res.status(503).json({
+            Message: "User database is not ready.",
+            "bak:ApiVersion": ver,
+            "bak:AppVersion": appver
+        });
+    }
+
+    const user = userdb.find(u => u.id === decoded.sub);
+
+    if (!user) {
+        return authError();
+    }
+
+    try {
+        const data = fs.readFileSync(
+            path.join(__dirname, "timetable.json"),
+            "utf-8"
+        );
+
+        const timetable = JSON.parse(data);
+
+        return res.status(200).json(timetable);
+    } catch (error) {
+        c.e("Failed to load actual timetable: " + error.message);
+
+        return res.status(500).json({
+            Message: "Failed to load timetable data.",
+            "bak:ApiVersion": ver,
+            "bak:AppVersion": appver
+        });
+    }
 });
 
 // roboti uhh jak to rict slusne
