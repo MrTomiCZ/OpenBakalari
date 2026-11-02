@@ -50,7 +50,7 @@ test("permanent timetable handles missing and invalid data", async () => {
             { algorithm: "RS256", expiresIn: "5m" }
         );
 
-        // Use a random free port to avoid conflicts with other tests.
+        // pouzivat volny port aby nevznikl interference s jinym testem
         const net = require("node:net");
         const port = await new Promise((resolve, reject) => {
             const listener = net.createServer();
