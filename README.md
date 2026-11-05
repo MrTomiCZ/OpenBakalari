@@ -22,5 +22,5 @@ npm run prod
 
 # Credits
 - [dokumentace API v3 bakalářů](https://github.com/bakalari-api/bakalari-api-v3) - inspirovalo mě vůbec celkově pracovat s Bakaláři API
-- [vextrixe rust typy](https://github.com/vextrixes/bakalari-types) - jakoby dokumentace, o hodně víc informací než má bakalari-api-v3
+- [vextrixe rust typy](https://github.com/vextrixes/bakalari-types) - PLUS vextrixe pomoc v DMs - je goated, ok to repo - jakoby dokumentace, o hodně víc informací než má bakalari-api-v3
 - tiktok @vojtavlas
